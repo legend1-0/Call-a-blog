@@ -9,7 +9,11 @@ const WelcomePage = () => {
        <img src={welcome} alt="" className='welcome_image' />
      <div className='text_overlay'>
        <div className='welcome_text'> Welcome to Call'a'blog</div>
-        </div>
+       <div className='welcome_buttons'>
+        <button>Start Reading</button>
+        <button className='button2'>Write Blog</button>
+       </div>
+       </div>
     </div>
   )
 }

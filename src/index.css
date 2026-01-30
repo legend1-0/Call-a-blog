@@ -17,12 +17,16 @@
 
 .text_overlay{
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 50px;
     top: 35%; 
     left: 50%;
     color: white;
     padding: 4px 4px;
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.55);
+  
     transform: translate(-50%, -50%);
 }
 
@@ -33,6 +37,27 @@
     font-weight: 700;
     line-height: 40px;
     max-lines: 2;
-    text-shadow: 3px 3px 5px black;
+    text-shadow: 2px 2px 5px black;
    
+}
+
+.welcome_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: center;
+}
+
+.welcome_buttons button{
+    padding: 10px;
+    width: 140px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    background-color: aliceblue;
+}
+
+.welcome_buttons .button2 {
+width: 200px;
 }
